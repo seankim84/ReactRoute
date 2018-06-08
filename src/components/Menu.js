@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Menu = () => {
     const activeStyle = {
@@ -10,8 +10,8 @@ const Menu = () => {
         <div>
             <ul>
                 <li><NavLink exact to ="/" activeStyle={activeStyle}>Home</NavLink></li>
-                <li><NavLink exact to ="/about" activeStyle={activeStyle}>About</NavLink></li>
-                <li><NavLink to ="/about/sean" activeStyle={activeStyle}>About Sean</NavLink></li>
+                <li><NavLink exact to ="/counter" activeStyle={activeStyle}>Counter</NavLink></li>
+                <li><NavLink to ="/counter/sean" activeStyle={activeStyle}>Counter Sean</NavLink></li>
                 <li><NavLink to ="/posts" activeStyle={activeStyle}>Posts</NavLink></li>
             </ul>
             <hr />
